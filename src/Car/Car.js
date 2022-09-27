@@ -37,7 +37,6 @@ class Car extends React.Component {
                 <h3>Car name: {this.props.name}</h3>
                 <p>Year: <strong>{this.props.year}</strong></p>
                 <input 
-                    //ref={(inputRef) => this.inputRef = inputRef}//
                     ref={this.inputRef}
                     type="text" 
                     onChange={this.props.onChangeName} 
